@@ -63,7 +63,7 @@ header img {
 
 /* =============Hero section================= */
 .hero-section {
-      background-image: url('img/main-hero-section.jpg')
+      background-image: url('img/main-hero-section.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       min-width: 100%;
@@ -173,7 +173,7 @@ header img {
       width: 490px;
 }
 
-.enjoy-tv h1 {
+.enjoy-tv h2 {
       font-size: 3.2rem;
       font-weight: 800;
 }
@@ -189,7 +189,7 @@ header img {
       margin-bottom: 2rem;
 }
 
-.watch-offline h1 {
+.watch-offline h2 {
       font-size: 3.1rem;
       line-height: 4.3rem;
       font-weight: 800;
@@ -201,7 +201,7 @@ header img {
       margin-top: 0.6rem;
 }
 
-.watch h1 {
+.watch h2 {
       font-size: 3rem;
       margin-bottom: 1rem;
       font-weight: 800;
@@ -213,7 +213,7 @@ header img {
 }
 
 /* ===============KIDS section====================== */
-.kids-profile h1 {
+.kids-profile h2 {
       font-size: 3rem;
       margin-bottom: 1rem;
       font-weight: 800;
@@ -236,7 +236,7 @@ header img {
       cursor: pointer;
 }
 
-.faqs h1 {
+.faqs h2 {
       color: #ffffff;
       text-align: center;
       margin-top: 4rem;
