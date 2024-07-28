@@ -1,0 +1,797 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: sans-serif;
+      background-color: #000000;
+}
+
+/* ===============NAVBAR================== */
+header img {
+      position: absolute;
+      top: 1px;
+      left: 140px;
+      width: 185px;
+      height: auto;
+}
+
+.buttons {
+      position: absolute;
+      top: 25px;
+      right: 140px;
+      font-size: 23px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 40px;
+}
+
+.lang-btn {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      font-size: 15px;
+      width: 115px;
+      height: 30px;
+      text-align: center;
+      cursor: pointer;
+}
+
+.signIn-btn {
+      background-color: #e60d0d;
+      color: #ffffff;
+      border: #ffffff;
+      border-radius: 5px;
+      font-size: 14px;
+      width: 80px;
+      height: 35px;
+      margin-left: 1rem;
+      text-align: center;
+      cursor: pointer;
+}
+
+.signIn-btn:hover {
+      background-color: #c71313;
+      transition: all 300ms ease;
+}
+
+
+/* =============Hero section================= */
+.hero-section {
+      background-image: url('img/main-hero-section.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-width: 100%;
+      min-height: 100vh;
+      filter: brightness(0.5);
+}
+
+.info {
+      position: absolute;
+      top: 270px;
+      box-sizing: border-box;
+      /* border: 1px solid #aaa; */
+      margin: 0 auto;
+      width: 100%;
+      color: #ffffff;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+}
+
+.info h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      width: 90%;
+      margin: auto;
+}
+
+.info p {
+      font-size: 1.4rem;
+      margin-top: 1rem;
+      width: 90%;
+      line-height: 1.4rem;
+      margin: auto;
+}
+
+.info input[type=text] {
+      /* background-color: #161616; */
+      background: transparent;
+      color: #fff;
+      font-size: 1rem;
+      top: 60%;
+      left: 20%;
+      width: 390px;
+      height: 60px;
+      border: 0.1px solid #aaa;
+      border-radius: 4px;
+      padding: 1rem 1rem;
+      margin-top: 1rem;
+}
+
+.info input[type=text]:focus {
+      border: 2px solid #ffffff;
+      box-shadow: 0 0 .25rem #fff;
+}
+
+.info input::placeholder {
+      position: absolute;
+      top: 35%;
+      left: 15px;
+      color: #ddd;
+      font-size: 1rem;
+      font-weight: 500;
+      pointer-events: none;
+}
+
+.info input[type=submit] {
+      background-color: #e60d0d;
+      color: #ffffff;
+      width: 206px;
+      height: 56px;
+      border-radius: 5px;
+      border: none;
+      margin-left: 0.5rem;
+      font-size: 25px;
+      cursor: pointer;
+}
+
+.info input[type=submit]:hover {
+      background-color: #c71313;
+}
+
+.info input::value {
+      font-size: 20px;
+}
+
+.line {
+      border-bottom: 7px solid #2e2d2d;
+}
+
+/*======================Sections====================== */
+.sections {
+      display: flex;
+      color: #ffffff;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin: 4rem 0;
+}
+
+.sections img {
+      width: 90%;
+      height: auto;
+}
+
+.box {
+      box-sizing: border-box;
+      width: 490px;
+}
+
+.enjoy-tv h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+}
+
+.enjoy-tv p {
+      font-size: 1.4rem;
+      margin-top: 0.8rem;
+      gap: 0.6rem;
+}
+
+/* =================Watch offline section==================== */
+.stranger-things-img {
+      margin-bottom: 2rem;
+}
+
+.watch-offline h1 {
+      font-size: 3.1rem;
+      line-height: 4.3rem;
+      font-weight: 800;
+}
+
+.watch-offline p {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      margin-top: 0.6rem;
+}
+
+.watch h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 800;
+}
+
+.watch p {
+      font-size: 1.4rem;
+      line-height: 2rem;
+}
+
+/* ===============KIDS section====================== */
+.kids-profile h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 800;
+}
+
+.kids-profile p {
+      font-size: 1.45rem;
+      line-height: 1.8rem
+}
+
+
+/* ===================FAQs==================== */
+.faq {
+      color: #ffffff;
+      align-items: center;
+      background: #2b2b2b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+}
+
+.faqs h1 {
+      color: #ffffff;
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 3rem;
+      font-weight: 800;
+}
+
+.faqs p {
+      font-size: 1.3rem;
+}
+
+.faq_item {
+      margin-bottom: 0.5rem;
+}
+
+.faqs_container {
+      color: #ffffff;
+      width: 80%;
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+}
+
+.faqs_container :hover {
+      background-color: #464646;
+      transition: all 400ms ease
+}
+
+.ques_container {
+      box-sizing: border-box;
+      padding: 1rem;
+      position: relative;
+      bottom: 0.1rem;
+      gap: 0.1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333232;
+      cursor: pointer;
+}
+
+.ques_container h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+}
+
+.ans_container {
+      padding: 1rem;
+      background-color: #313030;
+      line-height: 1.9rem;
+}
+
+.ans_container p {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+}
+
+.faq_icon {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      font-size: 3rem;
+      font-weight: 100;
+      right: 2rem;
+}
+
+.faq_question {
+      font-size: 1.2rem;
+      font-weight: 500;
+}
+
+.faq_answer {
+      display: none;
+      padding: 1rem;
+      transition: transform 0.8s ease-in-out;
+}
+
+
+/* ====================SIGNIN and Textbox================= */
+.signin {
+      color: #ffffff;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-bottom: 5rem;
+}
+
+.signin p {
+      font-size: 1.2rem;
+      font-weight: 400;
+}
+
+.signin input[type=text] {
+      background-color: #161616;
+      color: #fff;
+      font-size: 1rem;
+      top: 60%;
+      left: 20%;
+      width: 370px;
+      height: 55px;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      padding: 1rem 1rem;
+      margin-top: 1rem;
+}
+
+.signin input[type=text]:focus {
+      border: 1px solid #aaaaaa;
+      box-shadow: 0 0 .25rem #fff;
+}
+
+.signin input::placeholder {
+      color: #aaaaaa;
+      font-size: 18px;
+      margin: 0 auto;
+}
+
+.signin input::placeholder {
+      position: absolute;
+      top: 34%;
+      left: 15px;
+      color: #ddd;
+      font-size: 1rem;
+      font-weight: 500;
+      pointer-events: none;
+}
+
+.signin input[type=submit] {
+      background-color: #df1010;
+      color: #ffffff;
+      width: 180px;
+      height: 55px;
+      border-radius: 5px;
+      border: none;
+      margin-left: 0.3rem;
+      font-size: 1.4rem;
+      cursor: pointer;
+}
+
+.signin input[type=submit]:hover {
+      background-color: #c71313;
+}
+
+
+/* ===============FOOTER=================== */
+footer {
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+      color: #c9c6c6;
+      height: auto;
+      justify-content: space-evenly;
+      display: block;
+      align-items: center;
+      line-height: 2.8rem;
+}
+
+footer a {
+      color: #c9c6c6;
+}
+
+footer .para1 {
+      margin-left: 10.4%;
+}
+
+.info-pages {
+      box-sizing: border-box;
+      width: 85%;
+      height: auto;
+      color: white;
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+ul a {
+      display: block;
+      color: #afadad;
+      line-height: 2rem;
+}
+
+.para {
+      margin-left: 10.4%;
+      font-size: 0.85rem;
+      color: #aaaaaa;
+}
+
+
+/* ==============Media queries for 1200px==================== */
+@media screen and (max-width: 1200px) {
+      .hero-section {
+            min-height: 10vh;
+            height: 700px;
+      }
+
+      .info h1 {
+            font-size: 2.3rem;
+      }
+
+      .enjoy-tv {
+            width: 60%;
+            margin-left: 3rem;
+      }
+
+}
+
+
+/* ==============Media queries for 900px==================== */
+@media screen and (max-width: 950px) {
+      header img {
+            top: 1px;
+            left: 30px;
+            width: 130px;
+            height: auto;
+      }
+
+      .hero-section {
+            min-height: 10vh;
+            height: 450px;
+      }
+
+      .buttons {
+            right: 50px;
+            font-size: 23px;
+      }
+
+      .info {
+            top: 150px;
+      }
+
+      .info h1 {
+            font-size: 1.6rem;
+      }
+
+      .info p {
+            font-size: 1.1rem;
+      }
+
+      .info input[type=text] {
+            width: 290px;
+            height: 45px;
+      }
+
+      .info input[type=text]::placeholder {
+            top: 30%;
+            font-size: 0.9rem;
+      }
+
+      .info input[type=submit] {
+            width: 140px;
+            height: 45px;
+            font-size: 16px;
+            border-radius: 5px;
+      }
+
+      .sections {
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      }
+
+      .sections h1 {
+            font-size: 1.7rem;
+            line-height: 1.9rem;
+      }
+
+      .sections p {
+            font-size: 0.9rem;
+      }
+
+      .sections img {
+            width: 75%;
+            height: auto;
+      }
+
+      .box {
+            width: 85%;
+            margin: 0 auto;
+      }
+
+      .faqs h1 {
+            margin-top: 4rem;
+            font-size: 2rem;
+            font-weight: 600;
+      }
+
+      .faqs p {
+            font-size: 1rem;
+            width: 80%;
+            margin: 0 auto;
+      }
+
+      .ques_container {
+            padding: 0.8rem;
+      }
+
+      .ques_container h2 {
+            font-size: 1.3rem;
+      }
+
+      .ans_container {
+            padding: 0.6rem;
+      }
+
+      .ans_container p {
+            margin-top: 1rem;
+            font-size: 1.1rem;
+      }
+
+      .faqs_container {
+            width: 88%;
+            max-width: 1200px;
+            padding: 0.6rem;
+      }
+
+      .faq_answer {
+            padding: 0.5rem;
+      }
+
+      .faq_icon {
+            font-size: 2rem;
+            right: 2rem;
+      }
+
+      .signin p {
+            font-size: 1rem;
+      }
+
+      .signin input[type=text] {
+            font-size: 0.9rem;
+            width: 290px;
+            height: 45px;
+      }
+
+      .signin input[type=submit] {
+            font-size: 1rem;
+            top: 60%;
+            left: 20%;
+            width: 140px;
+            height: 45px;
+            margin-top: 0.6rem;
+      }
+
+      .info-pages {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+      }
+}
+
+/* ==============Media queries for 500px==================== */
+@media screen and (max-width: 500px) {
+      header img {
+            top: 1rem;
+            left: 0.5rem;
+            width: 110px;
+            height: auto;
+      }
+
+      .buttons {
+            right: 0.9rem;
+            top: 1.3rem;
+            font-size: 23px;
+      }
+
+      .lang-btn {
+            width: 90px;
+            height: 30px;
+            font-size: 0.85rem;
+      }
+
+      .signIn-btn {
+            width: 70px;
+            font-size: 0.85rem;
+            height: 30px;
+            margin-left: 0.3rem;
+      }
+
+      .hero-section {
+            min-height: 50vh;
+            height: 450px;
+      }
+
+      .info {
+            top: 140px;
+            box-sizing: border-box;
+            width: 100%;
+            margin: auto;
+      }
+
+      .info h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+      }
+
+      .info p {
+            font-size: 1rem;
+            /* width: 440px; */
+            margin-top: 0.6rem;
+      }
+
+      .info input[type=text] {
+            width: 330px;
+            height: 50px;
+            margin-bottom: 0.7rem;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+      }
+
+      .info input[type=text]::placeholder {
+            font-size: 0.9rem;
+            top: 26%;
+      }
+
+      .info input[type=submit] {
+            margin-top: 3rem;
+            display: block;
+            margin: 0 auto;
+            width: 160px;
+            height: 40px;
+            font-size: 1.2rem;
+      }
+
+      .sections {
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .sections h1 {
+            font-size: 1.4rem;
+      }
+
+      .sections p {
+            font-size: 0.9rem;
+            line-height: 1.4rem;
+      }
+
+      .box {
+            width: 85%;
+            margin: 0 auto;
+      }
+
+      /* FAQs */
+      .faqs_container {
+            width: 90%;
+            max-width: 1200px;
+      }
+
+      .faqs h1 {
+            margin-top: 3rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+      }
+
+      .faq_icon {
+            font-size: 1.5rem;
+            right: 2rem;
+      }
+
+      .ques_container {
+            padding: 0.8rem;
+      }
+
+      .ques_container h2 {
+            font-size: 0.9rem;
+      }
+
+      .ans_container {
+            padding: 0.5rem;
+      }
+
+      .ans_container p {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            line-height: 1.6rem;
+      }
+
+      .signin {
+            color: #ffffff;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin-bottom: 5rem;
+      }
+
+      .signin p {
+            font-size: 0.85rem;
+            font-weight: 400;
+      }
+
+      .signin input[type=text] {
+            background-color: #161616;
+            width: 330px;
+            height: 45px;
+            justify-content: center;
+      }
+
+      .signin input::placeholder {
+            font-size: 0.85rem;
+            margin: 0 auto;
+            top: 28%;
+      }
+
+      .signin input[type=submit] {
+            width: 140px;
+            height: 45px;
+            margin-left: 0.2rem;
+            /* margin-top: 1rem; */
+            font-size: 1.1rem;
+      }
+
+      footer {
+            flex-direction: column;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            line-height: 2.8rem;
+      }
+
+      .info-pages {
+            width: 85%;
+            height: auto;
+            color: white;
+            font-size: 0.8rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+      }
+
+      .info-pages ul a {
+            line-height: 1.6rem;
+      }
+
+      footer {
+            font-size: 0.85rem;
+            display: block;
+            flex-direction: column;
+            flex-wrap: wrap;
+      }
+
+      .info-block {
+            width: 100%;
+            margin-top: 1rem;
+      }
+
+      .para {
+            margin-left: 7%;
+
+      }
+}
