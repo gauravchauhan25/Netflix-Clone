@@ -479,6 +479,7 @@ ul a {
 
       .info p {
             font-size: 1.1rem;
+	    line-height: 1.2rem;
       }
 
       .info input[type=text] {
@@ -506,8 +507,8 @@ ul a {
             text-align: center;
       }
 
-      .sections h1 {
-            font-size: 1.7rem;
+      .sections h2 {
+            font-size: 2rem;
             line-height: 1.9rem;
       }
 
@@ -675,7 +676,7 @@ ul a {
             align-items: center;
       }
 
-      .sections h1 {
+      .sections h2 {
             font-size: 1.4rem;
       }
 
@@ -695,7 +696,7 @@ ul a {
             max-width: 1200px;
       }
 
-      .faqs h1 {
+      .faq-heading {
             margin-top: 3rem;
             font-size: 1.5rem;
             font-weight: 600;
@@ -777,7 +778,7 @@ ul a {
             justify-content: space-evenly;
       }
 
-      .info-pages ul a {
+      .info-pages ul li a {
             line-height: 1.6rem;
       }
 
