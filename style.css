@@ -614,15 +614,15 @@ ul a {
       }
 
       .lang-btn {
-            width: 90px;
-            height: 30px;
-            font-size: 0.85rem;
+            width: 80px;
+            height: 29px;
+            font-size: 0.75rem;
       }
 
       .signIn-btn {
             width: 70px;
-            font-size: 0.85rem;
-            height: 30px;
+            font-size: 0.8rem;
+            height: 29px;
             margin-left: 0.3rem;
       }
 
