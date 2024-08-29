@@ -71,7 +71,7 @@ header img {
       background-size: cover;
       min-width: 100%;
       min-height: 100vh;
-      filter: brightness(0.5);
+      filter: brightness(0.32);
 }
 
 .info {
