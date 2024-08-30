@@ -12,11 +12,9 @@ document.addEventListener('DOMContentLoaded',
 
                         const icon = question.querySelector('.faq_icon');
                         if (answer.style.display == 'block') {
-                              // icon.className.toggle('uil uil-plus');
                               icon.innerText = "close";
                         }
                         else {
-                              // icon.className.toggle('uil uil-plus');
                               icon.innerText = "add";
                         }
                   })
