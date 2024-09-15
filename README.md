@@ -4,6 +4,10 @@
 <p>This website is created using HTML, CSS and JavaScript</p>
 <p>It is the home page of original Netflix containing the main hero section, some decription of the movies and webs series and also some FAQs about it.</p>
 
+<h3>## Disclaimer</h3>
+<p>
+This site is a Netflix clone built for educational purposes only. It is not affiliated with or endorsed by Netflix in any way. This is a non-commercial project meant to showcase development skills.
+</p>
 
 <h3>Preview</h3>
 
